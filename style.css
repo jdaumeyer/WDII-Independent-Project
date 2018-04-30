@@ -1,0 +1,44 @@
+/*:root {
+	--bg-color: #333366;
+	--text-color: #cccccc;
+}
+
+body {
+	display: grid;
+	grid-template-areas: "name name name"
+											 "item game note"
+											 "foot foot foot";
+	grid-template-rows: 1fr 3fr 1fr;
+	grid-template-columns: 1fr 2fr 1fr;
+	padding: 2em;
+	background-color: var(--bg-color);
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	color: var(--text-color);
+}
+
+ul {
+	list-style: none;
+}
+
+canvas {
+	grid-area: game;
+	margin: 0 auto;
+}
+
+#name {
+	grid-area: name;
+	border: 1px solid black;
+}
+
+.inventory {
+	grid-area: item;
+	border: 1px solid black;
+}
+
+.notes {
+	background-color: white;
+}*/
